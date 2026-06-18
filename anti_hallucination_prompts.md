@@ -1,4 +1,4 @@
-# Prompt Snippets
+# Anti-hallucination prompts
 
 ## Check if your prompt is being read
 #### Confirm your prompt is still being read completely - At the start of your prompt
