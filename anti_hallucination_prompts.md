@@ -7,13 +7,13 @@ Always start every response by addressing me as [your name]
 ```
 
 ## Review results 
-#### Examples to add at the end of a prompt to help reduce errors. Use the ones relevant to what your are trying to do.
+#### Examples to add at the end of a prompt to help reduce errors. Use the ones relevant to what you are trying to do.
 ```text
-- Review content and ensure there are no errors, contradictions, or unverified information
-- Double-check your results to confirm they are correct. Flag any potential errors and report them to me
-- Make sure data is verified before returning results
-- Double-check results before returning, explaining any discrepancies 
-- After computing, run a self-check:
+1. Review content and ensure there are no errors, contradictions, or unverified information
+2. Double-check your results to confirm they are correct. Flag any potential errors and report them to me
+3. Make sure data is verified before returning results
+4. Double-check results before returning, explaining any discrepancies 
+5. After computing, run a self-check:
         Recalculate key figures using an alternative method (e.g., aggregation vs. sampling).
         If results differ, highlight the discrepancy and choose the more reliable one, explaining why.
 ```
@@ -21,14 +21,17 @@ Always start every response by addressing me as [your name]
 ## Prompt examples to reduce any potential hallucinations
 #### These snippets will force a review of content and help produce rails for your review. Use the ones relevant to your prompt. 
 ```text
+After your prompt, add:
+
 Guardrails:
 - Review content and ensure there are no errors, contradictions, or unverified information
 - Flag any assumptions or unclear information, and create a bullet point list at the end for my review
 - Do not fabricate data or cite unknown sources
 - Do not add any additional information outside of what has been provided
 - Flag missing prerequisites explicitly
-- Remove any source that an AI has created
-- Add more from above or other sources as needed
+- Flag any source that an AI has created
+
+Add more from above or other sources as needed
 ```
 
 # Specific examples
