@@ -4,5 +4,5 @@ This repo is specifically for providing a growing library of prompts to be share
 [Anti-hallucination Checkers](https://github.com/ptop20/prompt_examples/blob/main/anti_hallucination_prompts.md) - Examples for confirming prompts are being read and content is correct
 
 Here are other prompt links for reference:
-https://github.com/johrenberger/genaiPrompts/tree/main
-https://benchlm.ai/
+1. https://github.com/johrenberger/genaiPrompts/tree/main
+2. https://benchlm.ai/
